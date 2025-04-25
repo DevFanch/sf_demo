@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+<div class="container mx-auto px-4 py-8">
+    <div class="text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-8">{{ title }}</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">Gestion de Projet</h2>
+                <p class="text-gray-600">Gérez vos projets efficacement avec notre système inspiré de Jira.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">Collaboration</h2>
+                <p class="text-gray-600">Travaillez en équipe de manière transparente et efficace.</p>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">Suivi en Temps Réel</h2>
+                <p class="text-gray-600">Suivez l'avancement de vos projets en temps réel.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

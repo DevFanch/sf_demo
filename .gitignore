@@ -1,0 +1,38 @@
+# Symfony
+/var/
+/vendor/
+/.env.local
+.env.test.local
+.env.dev.local
+.env.prod.local
+/.env.*.local.php
+/.phpunit.result.cache
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & Cache
+/log/
+*.log
+*.cache
+
+# Tests
+/phpunit.xml
+/phpunit.xml.dist
+coverage/
+
+# Composer
+composer.lock
+
+# Node
+node_modules/
+dist/
