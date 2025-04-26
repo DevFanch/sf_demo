@@ -3,6 +3,7 @@
 Projet de boutique en ligne pour le marché mexicain, développé avec Symfony 6.4 et PostgreSQL.  
 Ce projet est structuré pour simuler une équipe pro avec Git, CI/CD, Docker, Jira et Render.
 
+In Progress
 ---
 
 ## 🚀 Stack Technique
